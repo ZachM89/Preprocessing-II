@@ -219,6 +219,11 @@ nav .nav-section:last-child {
   justify-content: space-between;
 }
 @media (max-width: 500px) {
+  nav p {
+    font-size: 3.2rem;
+    font-weight: normal;
+    padding: 0px;
+  }
   nav .inner-container {
     width: 94%;
     flex-direction: column;
