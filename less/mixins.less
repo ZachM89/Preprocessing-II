@@ -11,3 +11,14 @@
 .font(){
     font-family: 'Indie Flower', cursive;
 }
+
+.signup-button(@backgroundcolor; @fontcolor; @borderradius; @height){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    height: @height;
+    background-color: @backgroundcolor;
+    color: @fontcolor;
+    border-radius: @borderradius;
+}

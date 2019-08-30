@@ -178,6 +178,7 @@ nav {
 nav p {
   font-family: 'Indie Flower', cursive;
   font-size: 4rem;
+  font-weight: bold;
   padding: 0px;
 }
 nav a {
@@ -240,6 +241,7 @@ nav .nav-section:last-child {
   border-radius: 10px;
 }
 .home .top {
+  margin: 0px 0px 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
 .home .top .text-content {
@@ -283,4 +285,14 @@ nav .nav-section:last-child {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  height: 40px;
+  background-color: teal;
+  color: white;
+  border-radius: 12px;
 }
